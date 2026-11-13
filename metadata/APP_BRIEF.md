@@ -1,4 +1,4 @@
-<!-- gf-brief source=4d08b8e17d86588767a9a110007aebeb196997f6db6094c6564a624caa88f89f written=2026-11-14T01:47:10+03:00 -->
+<!-- gf-brief source=11e8d9e1cbcec07b44580d2ed9eb2b63d48bc6ff519d1fbcb0ea17db35b8699e written=2026-11-14T01:48:35+03:00 -->
 # Arena Brasil
 
 ## What it is
