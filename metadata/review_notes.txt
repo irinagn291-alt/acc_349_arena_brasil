@@ -1,0 +1,5 @@
+The app opens directly to Home without onboarding or an account. The interface is English (UK). It uses an offline, bundled illustrative football catalogue; the Corinthians–Santos 2–1 score at 67 minutes is frozen sample data.
+
+Review steps: Browse Home and Matches, open a fixture to inspect its match centre, and open a team name to view its profile. In Competitions, open a competition to inspect its table, fixtures and scorers. Use My Football to follow clubs and competitions, view saved matches and cancel pending reminders.
+
+Confirming a demo reminder requests notification alert and sound permission and schedules a local notification one minute later. Follows, saved matches and reminder identifiers are stored locally. A small or medium WidgetKit widget reads an App Group snapshot and opens My Football. There is no football API, account, advertising or purchase integration, and no camera, biometric or accessory workflow.

@@ -1,0 +1,945 @@
+// !$*UTF8*$!
+{
+	classes = {
+	};
+	objectVersion = 77;
+	archiveVersion = 1;
+	objects = {
+		55F9AA90F57E65C8F2CC1C7B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AFDFC08ACC285E5498B47035 /* PBXProject */;
+			remoteGlobalIDString = DC9CE6EEAF6B1FF30FDC1802 /* ArenaBrasil */;
+			remoteInfo = ArenaBrasil;
+			proxyType = 1;
+		};
+		8ED0081F7A832F5E815F0E25 /* PBXBuildFile */ = {
+			isa = PBXBuildFile;
+			fileRef = 183BF5A1B634795B0ED7CD4C /* WidgetShared/WidgetSnapshot.swift */;
+		};
+		289DD7CEB60B5DEC32345344 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 42D5BB2F67FA4970440D30BB /* ArenaBrasilWidget */;
+			targetProxy = AF0C020C30C1A2C1ABB1DA7F /* PBXContainerItemProxy */;
+		};
+		04509EF342A02AE860EA4887 /* ArenaBrasilTests.xctest */ = {
+			path = ArenaBrasilTests.xctest;
+			isa = PBXFileReference;
+			includeInIndex = 0;
+			lastKnownFileType = wrapper.cfbundle;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		076330207FBD514D386BA878 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) DEBUG";
+				MARKETING_VERSION = 1.0;
+				INFOPLIST_FILE = Support/AppInfo.plist;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				ENABLE_TESTABILITY = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Arena Brasil";
+				CODE_SIGN_ENTITLEMENTS = Support/App.entitlements;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.sports";
+				PRODUCT_BUNDLE_IDENTIFIER = app.arenabrasil.football;
+				SDKROOT = iphoneos;
+				CURRENT_PROJECT_VERSION = 1;
+				CODE_SIGN_STYLE = Automatic;
+			};
+			name = Debug;
+		};
+		B44D948A751E9D7F2CA917BE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AFDFC08ACC285E5498B47035 /* PBXProject */;
+			remoteGlobalIDString = DC9CE6EEAF6B1FF30FDC1802 /* ArenaBrasil */;
+			remoteInfo = ArenaBrasil;
+			proxyType = 1;
+		};
+		10A9E2755178A534E25001F9 /* UITests */ = {
+			path = UITests;
+			isa = PBXGroup;
+			children = (
+				7D9FF9716093A06EFF1D3A31 /* ArenaUITests.swift */,
+			);
+			sourceTree = "<group>";
+		};
+		7737A32FFE424129A7749550 /* XCConfigurationList */ = {
+			isa = XCConfigurationList;
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+			buildConfigurations = (
+				1182B564C7A9A4377A9E4608 /* Debug */,
+				7B4D7AA24C5D696BBD0D8A41 /* Release */,
+			);
+		};
+		DCBBE75B68CABC6EC46DA337 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				TEST_TARGET_NAME = ArenaBrasil;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				PRODUCT_BUNDLE_IDENTIFIER = app.arenabrasil.ArenaBrasilUITests;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		AF0C020C30C1A2C1ABB1DA7F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AFDFC08ACC285E5498B47035 /* PBXProject */;
+			remoteGlobalIDString = 42D5BB2F67FA4970440D30BB /* ArenaBrasilWidget */;
+			remoteInfo = ArenaBrasilWidget;
+			proxyType = 1;
+		};
+		AFF70CAF7069CA7147345B9A /* WidgetTests/WidgetIntegrationTests.swift */ = {
+			path = WidgetTests/WidgetIntegrationTests.swift;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			sourceTree = SOURCE_ROOT;
+		};
+		AB133A7E35DA4864619CE0CF /* ArenaBrasilWidget.appex */ = {
+			path = ArenaBrasilWidget.appex;
+			isa = PBXFileReference;
+			explicitFileType = "wrapper.app-extension";
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		EF1B65D543138D4B82B5DAAC /* WidgetTests/WidgetTests.swift */ = {
+			path = WidgetTests/WidgetTests.swift;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			sourceTree = SOURCE_ROOT;
+		};
+		72AB2A164D9601225361D5BE /* Products */ = {
+			isa = PBXGroup;
+			name = Products;
+			children = (
+				3DA1ADB88A6805778DD68994 /* ArenaBrasil.app */,
+				04509EF342A02AE860EA4887 /* ArenaBrasilTests.xctest */,
+				0F20E9F40DCA7161AA2362EC /* ArenaBrasilUITests.xctest */,
+				AB133A7E35DA4864619CE0CF /* ArenaBrasilWidget.appex */,
+				2F32572318B18D5E0434D4EB /* ArenaBrasilWidgetTests.xctest */,
+			);
+			sourceTree = "<group>";
+		};
+		4A171BCD1421962C04ECF5D1 /* PBXSourcesBuildPhase */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F63693EFC6D6B47D7D33500A /* PBXBuildFile */,
+				2F66D25D41D3DC29D290093E /* PBXBuildFile */,
+				8ED0081F7A832F5E815F0E25 /* PBXBuildFile */,
+				CE71C1C775BC2A27732B1B59 /* PBXBuildFile */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B37D07CA0488C489B33C6D08 /* Release */ = {
+			isa = XCBuildConfiguration;
+			name = Release;
+			buildSettings = {
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_STYLE = Automatic;
+				MARKETING_VERSION = 1.0;
+				INFOPLIST_FILE = WidgetExtension/Info.plist;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				GENERATE_INFOPLIST_FILE = NO;
+				CODE_SIGN_ENTITLEMENTS = Support/Widget.entitlements;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 6.0;
+				CURRENT_PROJECT_VERSION = 1;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				PRODUCT_BUNDLE_IDENTIFIER = app.arenabrasil.football.widget;
+			};
+		};
+		77D914235CECDB4D6020BFF0 /* PBXBuildFile */ = {
+			isa = PBXBuildFile;
+			fileRef = DD1F8C683C134B1973BBAE0E /* WidgetShared/WidgetIdentity.swift */;
+		};
+		58612E15F00309763A4480DD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AFDFC08ACC285E5498B47035 /* PBXProject */;
+			remoteGlobalIDString = DC9CE6EEAF6B1FF30FDC1802 /* ArenaBrasil */;
+			remoteInfo = ArenaBrasil;
+			proxyType = 1;
+		};
+		522533E89DC94A491717CC3E /* PBXSourcesBuildPhase */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC536D0174B7799A015C526B /* PBXBuildFile */,
+				C97F68E834C603C6AA01E52D /* PBXBuildFile */,
+				67C00B5C88B47DF528D7C770 /* PBXBuildFile */,
+				1B0B93D447D2A499A56678AA /* PBXBuildFile */,
+				7ADC9B3B885886D0097D305F /* PBXBuildFile */,
+				5804B2CE6A17277FBB52709D /* PBXBuildFile */,
+				B63CEDA89943E51810E608A2 /* PBXBuildFile */,
+				77D914235CECDB4D6020BFF0 /* PBXBuildFile */,
+				11B3C864EA575B754548E648 /* PBXBuildFile */,
+				82EB077E67FD6979C99C757C /* PBXBuildFile */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0F20E9F40DCA7161AA2362EC /* ArenaBrasilUITests.xctest */ = {
+			path = ArenaBrasilUITests.xctest;
+			isa = PBXFileReference;
+			includeInIndex = 0;
+			lastKnownFileType = wrapper.cfbundle;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		270634D7F17180745FAF4FD7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CURRENT_PROJECT_VERSION = 1;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				COPY_PHASE_STRIP = NO;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_COMMA = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_VERSION = 6.0;
+				CLANG_WARN_INT_CONVERSION = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				SDKROOT = iphoneos;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				GENERATE_INFOPLIST_FILE = YES;
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				CLANG_ENABLE_MODULES = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				MARKETING_VERSION = 1.0.0;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				ENABLE_TESTABILITY = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				GCC_DYNAMIC_NO_PIC = NO;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+			};
+			name = Debug;
+		};
+		C97F68E834C603C6AA01E52D /* PBXBuildFile */ = {
+			isa = PBXBuildFile;
+			fileRef = 9CD33D24D1E1F32DAABCA6FC /* Design.swift */;
+		};
+		86F0C34F3D9448C06B033AD5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				INFOPLIST_FILE = Support/AppInfo.plist;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Arena Brasil";
+				CODE_SIGN_ENTITLEMENTS = Support/App.entitlements;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.sports";
+				PRODUCT_BUNDLE_IDENTIFIER = app.arenabrasil.football;
+				SDKROOT = iphoneos;
+				CURRENT_PROJECT_VERSION = 1;
+				CODE_SIGN_STYLE = Automatic;
+			};
+			name = Release;
+		};
+		5F642BEA3AD5146D77686D7B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DC9CE6EEAF6B1FF30FDC1802 /* ArenaBrasil */;
+			targetProxy = 55F9AA90F57E65C8F2CC1C7B /* PBXContainerItemProxy */;
+		};
+		5804B2CE6A17277FBB52709D /* PBXBuildFile */ = {
+			isa = PBXBuildFile;
+			fileRef = DBA92FB091BD1638EF4C5BFE /* Store.swift */;
+		};
+		F93EEB27322075D80FD3B72C /* PBXSourcesBuildPhase */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE5C16B6FF40A12ACAF43A1D /* PBXBuildFile */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E095D125447574CE390FAE5 /* Sources/WidgetBridge.swift */ = {
+			path = Sources/WidgetBridge.swift;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			sourceTree = SOURCE_ROOT;
+		};
+		88CD703230E50CC0D25FF579 /* Details.swift */ = {
+			path = Details.swift;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			sourceTree = "<group>";
+		};
+		D5034B98A8AD10F70D7805A8 /* FootballTests.swift */ = {
+			path = FootballTests.swift;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			sourceTree = "<group>";
+		};
+		AFDFC08ACC285E5498B47035 /* PBXProject */ = {
+			buildConfigurationList = 2BE8D84BABB716CE54369E5C /* XCConfigurationList */;
+			targets = (
+				DC9CE6EEAF6B1FF30FDC1802 /* ArenaBrasil */,
+				28974689918690BA3BF6519C /* ArenaBrasilTests */,
+				BC2A560F83294EC4282C0795 /* ArenaBrasilUITests */,
+				42D5BB2F67FA4970440D30BB /* ArenaBrasilWidget */,
+				9FDC88B2404B7201E8F2AAFF /* ArenaBrasilWidgetTests */,
+			);
+			minimizedProjectReferenceProxies = 1;
+			developmentRegion = "en-GB";
+			knownRegions = (
+				Base,
+				"en-GB",
+			);
+			isa = PBXProject;
+			productRefGroup = 72AB2A164D9601225361D5BE /* Products */;
+			projectDirPath = "";
+			attributes = {
+				LastUpgradeCheck = 1430;
+				BuildIndependentTargetsInParallel = YES;
+				TargetAttributes = {
+					BC2A560F83294EC4282C0795 /* ArenaBrasilUITests */ = {
+						TestTargetID = DC9CE6EEAF6B1FF30FDC1802 /* ArenaBrasil */;
+					};
+					DC9CE6EEAF6B1FF30FDC1802 /* ArenaBrasil */ = {
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+					42D5BB2F67FA4970440D30BB /* ArenaBrasilWidget */ = {
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			hasScannedForEncodings = 0;
+			projectRoot = "";
+			preferredProjectObjectVersion = 77;
+			mainGroup = F8E3A6CDC990BEA4587FAF2D /* PBXGroup */;
+		};
+		9CD33D24D1E1F32DAABCA6FC /* Design.swift */ = {
+			path = Design.swift;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			sourceTree = "<group>";
+		};
+		F8E3A6CDC990BEA4587FAF2D /* PBXGroup */ = {
+			isa = PBXGroup;
+			sourceTree = "<group>";
+			children = (
+				4A12A62BB6D98F41F07E2BEC /* Sources */,
+				6CD1237E2E46900996460FCC /* Tests */,
+				10A9E2755178A534E25001F9 /* UITests */,
+				72AB2A164D9601225361D5BE /* Products */,
+				081BC36DCCE9F1FDFA337130 /* Widgets */,
+				AFF70CAF7069CA7147345B9A /* WidgetTests/WidgetIntegrationTests.swift */,
+				EF1B65D543138D4B82B5DAAC /* WidgetTests/WidgetTests.swift */,
+			);
+		};
+		8D086A999489625D83A0AE20 /* ArenaBrasilApp.swift */ = {
+			path = ArenaBrasilApp.swift;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			sourceTree = "<group>";
+		};
+		11B3C864EA575B754548E648 /* PBXBuildFile */ = {
+			isa = PBXBuildFile;
+			fileRef = 183BF5A1B634795B0ED7CD4C /* WidgetShared/WidgetSnapshot.swift */;
+		};
+		DC536D0174B7799A015C526B /* PBXBuildFile */ = {
+			isa = PBXBuildFile;
+			fileRef = 8D086A999489625D83A0AE20 /* ArenaBrasilApp.swift */;
+		};
+		DD1F8C683C134B1973BBAE0E /* WidgetShared/WidgetIdentity.swift */ = {
+			path = WidgetShared/WidgetIdentity.swift;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			sourceTree = SOURCE_ROOT;
+		};
+		5DAA60B8DD0C49A6CA2B83C3 /* Assets.xcassets */ = {
+			path = Assets.xcassets;
+			isa = PBXFileReference;
+			lastKnownFileType = folder.assetcatalog;
+			sourceTree = "<group>";
+		};
+		67C00B5C88B47DF528D7C770 /* PBXBuildFile */ = {
+			isa = PBXBuildFile;
+			fileRef = 88CD703230E50CC0D25FF579 /* Details.swift */;
+		};
+		3DA1ADB88A6805778DD68994 /* ArenaBrasil.app */ = {
+			path = ArenaBrasil.app;
+			isa = PBXFileReference;
+			includeInIndex = 0;
+			lastKnownFileType = wrapper.application;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		DC9CE6EEAF6B1FF30FDC1802 /* ArenaBrasil */ = {
+			productType = "com.apple.product-type.application";
+			productReference = 3DA1ADB88A6805778DD68994 /* ArenaBrasil.app */;
+			buildConfigurationList = 756C093F78CFA07F4CDA3794 /* XCConfigurationList */;
+			packageProductDependencies = (
+			);
+			productName = ArenaBrasil;
+			isa = PBXNativeTarget;
+			buildPhases = (
+				522533E89DC94A491717CC3E /* PBXSourcesBuildPhase */,
+				DEA99FCF126A8FE71CC31911 /* PBXResourcesBuildPhase */,
+				DCE18373FDC58ECDEDC6BCEF /* Embed App Extensions */,
+			);
+			dependencies = (
+				289DD7CEB60B5DEC32345344 /* PBXTargetDependency */,
+			);
+			name = ArenaBrasil;
+			buildRules = (
+			);
+		};
+		B63CEDA89943E51810E608A2 /* PBXBuildFile */ = {
+			isa = PBXBuildFile;
+			fileRef = 4FAC2A9A7CF875517A882DCD /* WidgetShared/ProgressWidgetView.swift */;
+		};
+		183BF5A1B634795B0ED7CD4C /* WidgetShared/WidgetSnapshot.swift */ = {
+			path = WidgetShared/WidgetSnapshot.swift;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			sourceTree = SOURCE_ROOT;
+		};
+		614FC65A40996D99BB552537 /* PBXBuildFile */ = {
+			isa = PBXBuildFile;
+			fileRef = 7D9FF9716093A06EFF1D3A31 /* ArenaUITests.swift */;
+		};
+		6C4CADD01F2E0B2971E09767 /* XCConfigurationList */ = {
+			isa = XCConfigurationList;
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+			buildConfigurations = (
+				9ACCF355E23708DB2D58973E /* Debug */,
+				DCBBE75B68CABC6EC46DA337 /* Release */,
+			);
+		};
+		BC2A560F83294EC4282C0795 /* ArenaBrasilUITests */ = {
+			productType = "com.apple.product-type.bundle.ui-testing";
+			productReference = 0F20E9F40DCA7161AA2362EC /* ArenaBrasilUITests.xctest */;
+			buildConfigurationList = 6C4CADD01F2E0B2971E09767 /* XCConfigurationList */;
+			packageProductDependencies = (
+			);
+			productName = ArenaBrasilUITests;
+			isa = PBXNativeTarget;
+			buildPhases = (
+				5B9507CEFDDAA5E11F9F7DC9 /* PBXSourcesBuildPhase */,
+			);
+			dependencies = (
+				5F642BEA3AD5146D77686D7B /* PBXTargetDependency */,
+			);
+			name = ArenaBrasilUITests;
+			buildRules = (
+			);
+		};
+		F0C06667CC6C55784C0682CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ArenaBrasil.app/ArenaBrasil";
+				PRODUCT_BUNDLE_IDENTIFIER = app.arenabrasil.ArenaBrasilTests;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DBA92FB091BD1638EF4C5BFE /* Store.swift */ = {
+			path = Store.swift;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			sourceTree = "<group>";
+		};
+		1B0B93D447D2A499A56678AA /* PBXBuildFile */ = {
+			isa = PBXBuildFile;
+			fileRef = A26B9CDBA3B755A8AF559E27 /* FootballViews.swift */;
+		};
+		2F32572318B18D5E0434D4EB /* ArenaBrasilWidgetTests.xctest */ = {
+			path = ArenaBrasilWidgetTests.xctest;
+			isa = PBXFileReference;
+			explicitFileType = wrapper.cfbundle;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		9ACCF355E23708DB2D58973E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				TEST_TARGET_NAME = ArenaBrasil;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				PRODUCT_BUNDLE_IDENTIFIER = app.arenabrasil.ArenaBrasilUITests;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5B9507CEFDDAA5E11F9F7DC9 /* PBXSourcesBuildPhase */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				614FC65A40996D99BB552537 /* PBXBuildFile */,
+				EE8D11B3D70F2AA002B06334 /* PBXBuildFile */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D22A424A961A350D2AF775C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			name = Debug;
+			buildSettings = {
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) DEBUG";
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_STYLE = Automatic;
+				MARKETING_VERSION = 1.0;
+				INFOPLIST_FILE = WidgetExtension/Info.plist;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				GENERATE_INFOPLIST_FILE = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				CODE_SIGN_ENTITLEMENTS = Support/Widget.entitlements;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				CURRENT_PROJECT_VERSION = 1;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				PRODUCT_BUNDLE_IDENTIFIER = app.arenabrasil.football.widget;
+			};
+		};
+		B405A2B56A2781562C5BB5F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ArenaBrasil.app/ArenaBrasil";
+				PRODUCT_BUNDLE_IDENTIFIER = app.arenabrasil.ArenaBrasilTests;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		F63693EFC6D6B47D7D33500A /* PBXBuildFile */ = {
+			isa = PBXBuildFile;
+			fileRef = 4FAC2A9A7CF875517A882DCD /* WidgetShared/ProgressWidgetView.swift */;
+		};
+		2BE8D84BABB716CE54369E5C /* XCConfigurationList */ = {
+			isa = XCConfigurationList;
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+			buildConfigurations = (
+				270634D7F17180745FAF4FD7 /* Debug */,
+				3B6D56FDED1358E72EE32C9F /* Release */,
+			);
+		};
+		033DD06CF9D553BD5013C8CF /* XCConfigurationList */ = {
+			isa = XCConfigurationList;
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+			buildConfigurations = (
+				F0C06667CC6C55784C0682CE /* Debug */,
+				B405A2B56A2781562C5BB5F8 /* Release */,
+			);
+		};
+		7D9FF9716093A06EFF1D3A31 /* ArenaUITests.swift */ = {
+			path = ArenaUITests.swift;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			sourceTree = "<group>";
+		};
+		FC3DFD3BB3D6B7AB547503AC /* XCConfigurationList */ = {
+			isa = XCConfigurationList;
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+			buildConfigurations = (
+				3D22A424A961A350D2AF775C /* Debug */,
+				B37D07CA0488C489B33C6D08 /* Release */,
+			);
+		};
+		1182B564C7A9A4377A9E4608 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			name = Debug;
+			buildSettings = {
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ArenaBrasil.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ArenaBrasil";
+				GENERATE_INFOPLIST_FILE = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				CODE_SIGN_STYLE = Automatic;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				PRODUCT_BUNDLE_IDENTIFIER = app.arenabrasil.football.widgettests;
+			};
+		};
+		28974689918690BA3BF6519C /* ArenaBrasilTests */ = {
+			productType = "com.apple.product-type.bundle.unit-test";
+			productReference = 04509EF342A02AE860EA4887 /* ArenaBrasilTests.xctest */;
+			buildConfigurationList = 033DD06CF9D553BD5013C8CF /* XCConfigurationList */;
+			packageProductDependencies = (
+			);
+			productName = ArenaBrasilTests;
+			isa = PBXNativeTarget;
+			buildPhases = (
+				78E34EF5AAF6DA816F46CE07 /* PBXSourcesBuildPhase */,
+			);
+			dependencies = (
+				257FD0DA4E7C7B3FC4491463 /* PBXTargetDependency */,
+			);
+			name = ArenaBrasilTests;
+			buildRules = (
+			);
+		};
+		E698C19FB1F64825649B1473 /* Models.swift */ = {
+			path = Models.swift;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			sourceTree = "<group>";
+		};
+		CE70165A8139A507FDCEFDE3 /* PBXResourcesBuildPhase */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE8D11B3D70F2AA002B06334 /* PBXBuildFile */ = {
+			isa = PBXBuildFile;
+			fileRef = AFF70CAF7069CA7147345B9A /* WidgetTests/WidgetIntegrationTests.swift */;
+		};
+		2E7E1FFB260B52C8EC3347A4 /* PBXBuildFile */ = {
+			isa = PBXBuildFile;
+			fileRef = 5DAA60B8DD0C49A6CA2B83C3 /* Assets.xcassets */;
+		};
+		DEA99FCF126A8FE71CC31911 /* PBXResourcesBuildPhase */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E7E1FFB260B52C8EC3347A4 /* PBXBuildFile */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7ADC9B3B885886D0097D305F /* PBXBuildFile */ = {
+			isa = PBXBuildFile;
+			fileRef = E698C19FB1F64825649B1473 /* Models.swift */;
+		};
+		83B289430DCED783927C53A7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DC9CE6EEAF6B1FF30FDC1802 /* ArenaBrasil */;
+			targetProxy = B44D948A751E9D7F2CA917BE /* PBXContainerItemProxy */;
+		};
+		E9F5219E721B6D1CB695DCF1 /* WidgetExtension/ProgressWidget.swift */ = {
+			path = WidgetExtension/ProgressWidget.swift;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			sourceTree = SOURCE_ROOT;
+		};
+		6CD1237E2E46900996460FCC /* Tests */ = {
+			path = Tests;
+			isa = PBXGroup;
+			children = (
+				D5034B98A8AD10F70D7805A8 /* FootballTests.swift */,
+			);
+			sourceTree = "<group>";
+		};
+		257FD0DA4E7C7B3FC4491463 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DC9CE6EEAF6B1FF30FDC1802 /* ArenaBrasil */;
+			targetProxy = 58612E15F00309763A4480DD /* PBXContainerItemProxy */;
+		};
+		4A12A62BB6D98F41F07E2BEC /* Sources */ = {
+			path = Sources;
+			isa = PBXGroup;
+			children = (
+				8D086A999489625D83A0AE20 /* ArenaBrasilApp.swift */,
+				5DAA60B8DD0C49A6CA2B83C3 /* Assets.xcassets */,
+				9CD33D24D1E1F32DAABCA6FC /* Design.swift */,
+				88CD703230E50CC0D25FF579 /* Details.swift */,
+				A26B9CDBA3B755A8AF559E27 /* FootballViews.swift */,
+				E698C19FB1F64825649B1473 /* Models.swift */,
+				DBA92FB091BD1638EF4C5BFE /* Store.swift */,
+			);
+			sourceTree = "<group>";
+		};
+		7B4D7AA24C5D696BBD0D8A41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			name = Release;
+			buildSettings = {
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ArenaBrasil.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ArenaBrasil";
+				PRODUCT_BUNDLE_IDENTIFIER = app.arenabrasil.football.widgettests;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 6.0;
+				CODE_SIGN_STYLE = Automatic;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				BUNDLE_LOADER = "$(TEST_HOST)";
+			};
+		};
+		8A9ED2C4D052326098FA12A6 /* PBXBuildFile */ = {
+			isa = PBXBuildFile;
+			fileRef = D5034B98A8AD10F70D7805A8 /* FootballTests.swift */;
+		};
+		78E34EF5AAF6DA816F46CE07 /* PBXSourcesBuildPhase */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A9ED2C4D052326098FA12A6 /* PBXBuildFile */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4C0BF8003A3B8E8076F2EB4 /* PBXFrameworksBuildPhase */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F66D25D41D3DC29D290093E /* PBXBuildFile */ = {
+			isa = PBXBuildFile;
+			fileRef = DD1F8C683C134B1973BBAE0E /* WidgetShared/WidgetIdentity.swift */;
+		};
+		DE5C16B6FF40A12ACAF43A1D /* PBXBuildFile */ = {
+			isa = PBXBuildFile;
+			fileRef = EF1B65D543138D4B82B5DAAC /* WidgetTests/WidgetTests.swift */;
+		};
+		756C093F78CFA07F4CDA3794 /* XCConfigurationList */ = {
+			isa = XCConfigurationList;
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+			buildConfigurations = (
+				076330207FBD514D386BA878 /* Debug */,
+				86F0C34F3D9448C06B033AD5 /* Release */,
+			);
+		};
+		9FDC88B2404B7201E8F2AAFF /* ArenaBrasilWidgetTests */ = {
+			productType = "com.apple.product-type.bundle.unit-test";
+			productReference = 2F32572318B18D5E0434D4EB /* ArenaBrasilWidgetTests.xctest */;
+			buildConfigurationList = 7737A32FFE424129A7749550 /* XCConfigurationList */;
+			productName = ArenaBrasilWidgetTests;
+			isa = PBXNativeTarget;
+			buildPhases = (
+				F93EEB27322075D80FD3B72C /* PBXSourcesBuildPhase */,
+			);
+			dependencies = (
+				83B289430DCED783927C53A7 /* PBXTargetDependency */,
+			);
+			name = ArenaBrasilWidgetTests;
+			buildRules = (
+			);
+		};
+		081BC36DCCE9F1FDFA337130 /* Widgets */ = {
+			isa = PBXGroup;
+			name = Widgets;
+			children = (
+				4FAC2A9A7CF875517A882DCD /* WidgetShared/ProgressWidgetView.swift */,
+				DD1F8C683C134B1973BBAE0E /* WidgetShared/WidgetIdentity.swift */,
+				183BF5A1B634795B0ED7CD4C /* WidgetShared/WidgetSnapshot.swift */,
+				4E095D125447574CE390FAE5 /* Sources/WidgetBridge.swift */,
+				E9F5219E721B6D1CB695DCF1 /* WidgetExtension/ProgressWidget.swift */,
+			);
+			sourceTree = "<group>";
+		};
+		3B6D56FDED1358E72EE32C9F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CURRENT_PROJECT_VERSION = 1;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				COPY_PHASE_STRIP = NO;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_COMMA = YES;
+				SWIFT_VERSION = 6.0;
+				CLANG_WARN_INT_CONVERSION = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				SDKROOT = iphoneos;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				GENERATE_INFOPLIST_FILE = YES;
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				CLANG_ENABLE_MODULES = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				MARKETING_VERSION = 1.0.0;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+			};
+			name = Release;
+		};
+		82EB077E67FD6979C99C757C /* PBXBuildFile */ = {
+			isa = PBXBuildFile;
+			fileRef = 4E095D125447574CE390FAE5 /* Sources/WidgetBridge.swift */;
+		};
+		D11494598C62AFEE9193B8B9 /* PBXBuildFile */ = {
+			isa = PBXBuildFile;
+			fileRef = AB133A7E35DA4864619CE0CF /* ArenaBrasilWidget.appex */;
+			settings = {
+				ATTRIBUTES = (
+					RemoveHeadersOnCopy,
+				);
+			};
+		};
+		DCE18373FDC58ECDEDC6BCEF /* Embed App Extensions */ = {
+			buildActionMask = 2147483647;
+			dstSubfolderSpec = 13;
+			isa = PBXCopyFilesBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+			dstPath = "";
+			files = (
+				D11494598C62AFEE9193B8B9 /* PBXBuildFile */,
+			);
+			name = "Embed App Extensions";
+		};
+		A26B9CDBA3B755A8AF559E27 /* FootballViews.swift */ = {
+			path = FootballViews.swift;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			sourceTree = "<group>";
+		};
+		4FAC2A9A7CF875517A882DCD /* WidgetShared/ProgressWidgetView.swift */ = {
+			path = WidgetShared/ProgressWidgetView.swift;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			sourceTree = SOURCE_ROOT;
+		};
+		42D5BB2F67FA4970440D30BB /* ArenaBrasilWidget */ = {
+			productType = "com.apple.product-type.app-extension";
+			productReference = AB133A7E35DA4864619CE0CF /* ArenaBrasilWidget.appex */;
+			buildConfigurationList = FC3DFD3BB3D6B7AB547503AC /* XCConfigurationList */;
+			productName = ArenaBrasilWidget;
+			isa = PBXNativeTarget;
+			buildPhases = (
+				4A171BCD1421962C04ECF5D1 /* PBXSourcesBuildPhase */,
+				D4C0BF8003A3B8E8076F2EB4 /* PBXFrameworksBuildPhase */,
+				CE70165A8139A507FDCEFDE3 /* PBXResourcesBuildPhase */,
+			);
+			dependencies = (
+			);
+			name = ArenaBrasilWidget;
+			buildRules = (
+			);
+		};
+		CE71C1C775BC2A27732B1B59 /* PBXBuildFile */ = {
+			isa = PBXBuildFile;
+			fileRef = E9F5219E721B6D1CB695DCF1 /* WidgetExtension/ProgressWidget.swift */;
+		};
+	};
+	rootObject = AFDFC08ACC285E5498B47035 /* PBXProject */;
+}

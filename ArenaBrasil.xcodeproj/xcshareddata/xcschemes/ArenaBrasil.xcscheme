@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Scheme LastUpgradeVersion="1430" version="1.7">
+  <BuildAction parallelizeBuildables="YES" buildImplicitDependencies="YES" runPostActionsOnFailure="NO">
+    <BuildActionEntries>
+      <BuildActionEntry buildForTesting="YES" buildForRunning="YES" buildForProfiling="YES" buildForArchiving="YES" buildForAnalyzing="YES">
+        <BuildableReference BuildableIdentifier="primary" BlueprintIdentifier="DC9CE6EEAF6B1FF30FDC1802" BuildableName="ArenaBrasil.app" BlueprintName="ArenaBrasil" ReferencedContainer="container:ArenaBrasil.xcodeproj">
+            </BuildableReference>
+      </BuildActionEntry>
+    </BuildActionEntries>
+  </BuildAction>
+  <TestAction buildConfiguration="Debug" selectedDebuggerIdentifier="Xcode.DebuggerFoundation.Debugger.LLDB" selectedLauncherIdentifier="Xcode.DebuggerFoundation.Launcher.LLDB" shouldUseLaunchSchemeArgsEnv="YES" onlyGenerateCoverageForSpecifiedTargets="NO">
+    <MacroExpansion>
+      <BuildableReference BuildableIdentifier="primary" BlueprintIdentifier="DC9CE6EEAF6B1FF30FDC1802" BuildableName="ArenaBrasil.app" BlueprintName="ArenaBrasil" ReferencedContainer="container:ArenaBrasil.xcodeproj">
+         </BuildableReference>
+    </MacroExpansion>
+    <Testables>
+      <TestableReference skipped="NO" parallelizable="NO">
+        <BuildableReference BuildableIdentifier="primary" BlueprintIdentifier="28974689918690BA3BF6519C" BuildableName="ArenaBrasilTests.xctest" BlueprintName="ArenaBrasilTests" ReferencedContainer="container:ArenaBrasil.xcodeproj">
+            </BuildableReference>
+      </TestableReference>
+      <TestableReference skipped="NO" parallelizable="NO">
+        <BuildableReference BuildableIdentifier="primary" BlueprintIdentifier="BC2A560F83294EC4282C0795" BuildableName="ArenaBrasilUITests.xctest" BlueprintName="ArenaBrasilUITests" ReferencedContainer="container:ArenaBrasil.xcodeproj">
+            </BuildableReference>
+      </TestableReference>
+      <TestableReference skipped="NO">
+        <BuildableReference BuildableIdentifier="primary" BlueprintIdentifier="9FDC88B2404B7201E8F2AAFF" BuildableName="ArenaBrasilWidgetTests.xctest" BlueprintName="ArenaBrasilWidgetTests" ReferencedContainer="container:ArenaBrasil.xcodeproj" />
+      </TestableReference>
+    </Testables>
+    <CommandLineArguments>
+      </CommandLineArguments>
+  </TestAction>
+  <LaunchAction buildConfiguration="Debug" selectedDebuggerIdentifier="Xcode.DebuggerFoundation.Debugger.LLDB" selectedLauncherIdentifier="Xcode.DebuggerFoundation.Launcher.LLDB" launchStyle="0" useCustomWorkingDirectory="NO" ignoresPersistentStateOnLaunch="NO" debugDocumentVersioning="YES" debugServiceExtension="internal" allowLocationSimulation="YES">
+    <BuildableProductRunnable runnableDebuggingMode="0">
+      <BuildableReference BuildableIdentifier="primary" BlueprintIdentifier="DC9CE6EEAF6B1FF30FDC1802" BuildableName="ArenaBrasil.app" BlueprintName="ArenaBrasil" ReferencedContainer="container:ArenaBrasil.xcodeproj">
+         </BuildableReference>
+    </BuildableProductRunnable>
+  </LaunchAction>
+  <ProfileAction buildConfiguration="Release" shouldUseLaunchSchemeArgsEnv="YES" savedToolIdentifier="" useCustomWorkingDirectory="NO" debugDocumentVersioning="YES">
+    <BuildableProductRunnable runnableDebuggingMode="0">
+      <BuildableReference BuildableIdentifier="primary" BlueprintIdentifier="DC9CE6EEAF6B1FF30FDC1802" BuildableName="ArenaBrasil.app" BlueprintName="ArenaBrasil" ReferencedContainer="container:ArenaBrasil.xcodeproj">
+         </BuildableReference>
+    </BuildableProductRunnable>
+  </ProfileAction>
+  <AnalyzeAction buildConfiguration="Debug">
+   </AnalyzeAction>
+  <ArchiveAction buildConfiguration="Release" revealArchiveInOrganizer="YES">
+   </ArchiveAction>
+</Scheme>

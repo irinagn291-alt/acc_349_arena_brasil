@@ -1,0 +1,9 @@
+Explore an illustrative Brazilian soccer season with Arena Brasil. The bundled November 2026 catalog is available offline and includes six clubs, 20 fixtures, and three competitions: Brasileirão, Copa do Brasil, and Libertadores.
+
+Browse fixtures by date, follow clubs and competitions, and save matches for later. Open a match center for scores or scheduled times, venues, illustrative events, lineups, statistics, head-to-head meetings, and recent form. Team profiles bring together fixtures, form, a league snapshot, and an illustrative squad.
+
+Explore competition fixtures and scorers, and see the Brasileirão table calculated from completed sample results. The cup competitions have fixtures but no league table. Fixture times are shown in Brasília time (BRT).
+
+The in-progress Corinthians–Santos score is a frozen sample, not a live update. You can also set a demo reminder, which sends a local notification one minute later, and add a small or medium widget showing a sample match and followed-team count.
+
+The app interface is in English (UK).

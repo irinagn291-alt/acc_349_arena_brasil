@@ -1,0 +1,9 @@
+Explore uma temporada ilustrativa do futebol brasileiro com o Arena Brasil. O catálogo incluído de novembro de 2026 está disponível sem conexão e reúne seis clubes, 20 partidas e três competições: Brasileirão, Copa do Brasil e Libertadores.
+
+Consulte as partidas por data, siga clubes e competições e salve jogos para ver depois. Abra a central de uma partida para conferir placar ou horário, estádio, eventos, escalações e estatísticas ilustrativos, além de confrontos anteriores e desempenho recente. Os perfis dos times reúnem partidas, desempenho, um resumo da liga e elenco ilustrativo.
+
+Explore partidas e artilheiros das competições e veja a tabela do Brasileirão calculada a partir dos resultados das partidas de exemplo concluídas. As duas copas têm partidas, mas não possuem tabela de liga. Os horários são exibidos no horário de Brasília (BRT).
+
+O placar em andamento de Corinthians e Santos é um exemplo fixo, sem atualização ao vivo. Você também pode definir um lembrete de demonstração, que envia uma notificação local após um minuto, e adicionar um widget pequeno ou médio com uma partida de exemplo e o número de times seguidos.
+
+A interface do aplicativo está em inglês britânico.
