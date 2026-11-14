@@ -22,19 +22,29 @@ workflows:
       - name: Install signing certificate and App Store profiles
         script: |
           set -euo pipefail
+          set +x
           umask 077
           private_dir=$(mktemp -d)
           trap 'rm -rf "$private_dir"' EXIT
           printf '%s' "$P12_CONTENT_B64" | base64 -D > "$private_dir/signing.p12"
           extract_key() {
-            openssl pkcs12 "$@" -in "$private_dir/signing.p12" -passin env:P12_PASSWORD -nocerts -nodes -out "$private_dir/key.pem"
+            openssl pkcs12 "$@" -in "$private_dir/signing.p12" -passin env:P12_PASSWORD -nocerts -nodes |
+              openssl pkey -out "$private_dir/key.pem"
           }
           extract_key 2>/dev/null || extract_key -legacy
           printf '%s' "$ASC_API_KEY_CONTENT" | base64 -D > "$private_dir/asc.p8"
           keychain initialize
+          # Argument errors in Codemagic CLI can include the entire rejected PEM.
+          signing_status=0
           app-store-connect fetch-signing-files "$APP_BUNDLE_ID" --type IOS_APP_STORE --create \
             --issuer-id "$ASC_ISSUER_ID" --key-id "$ASC_KEY_ID" --private-key "@file:$private_dir/asc.p8" \
-            --certificate-key "@file:$private_dir/key.pem"
+            --certificate-key "@file:$private_dir/key.pem" > "$private_dir/signing.log" 2>&1 || signing_status=$?
+          if grep -Eq -- '-----BEGIN|Provided value|Bag Attributes' "$private_dir/signing.log"; then
+            echo "Codemagic signing diagnostics contained credential data and were suppressed." >&2
+          else
+            cat "$private_dir/signing.log"
+          fi
+          if (( signing_status != 0 )); then exit "$signing_status"; fi
           keychain add-certificates
           xcode-project use-profiles
       - name: Archive and export IPA
