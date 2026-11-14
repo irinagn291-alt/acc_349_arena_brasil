@@ -51,7 +51,7 @@
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.sports";
 				PRODUCT_BUNDLE_IDENTIFIER = app.arenabrasil.football;
 				SDKROOT = iphoneos;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
 				CODE_SIGN_STYLE = Automatic;
 			};
 			name = Debug;
@@ -164,7 +164,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SWIFT_VERSION = 6.0;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				PRODUCT_BUNDLE_IDENTIFIER = app.arenabrasil.football.widget;
 			};
@@ -207,7 +207,7 @@
 		270634D7F17180745FAF4FD7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				CLANG_WARN_INFINITE_RECURSION = YES;
@@ -296,7 +296,7 @@
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.sports";
 				PRODUCT_BUNDLE_IDENTIFIER = app.arenabrasil.football;
 				SDKROOT = iphoneos;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
 				CODE_SIGN_STYLE = Automatic;
 			};
 			name = Release;
@@ -578,7 +578,7 @@
 				SDKROOT = iphoneos;
 				SWIFT_VERSION = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				PRODUCT_BUNDLE_IDENTIFIER = app.arenabrasil.football.widget;
 			};
@@ -826,7 +826,7 @@
 		3B6D56FDED1358E72EE32C9F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				CLANG_WARN_INFINITE_RECURSION = YES;
